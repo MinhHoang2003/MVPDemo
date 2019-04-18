@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">MVPDemoLoginSreen</string>
+    <string name="MSG_REGISTER_SUCCESSFULLY">Register Successfully</string>
+    <string name="MSG_LOGIN_ERROR">User or Password incorrect</string>
+    <string name="MSG_VALID_ACCOUNT">Password must more than 6 character or Email has been existed</string>
+    <string name="MSG_LOGIN_SUCCESSFULLY">Login successfully</string>
+    <string name="MSG_ERROR_ADDING_USER">Error adding new user to database</string>
 </resources>

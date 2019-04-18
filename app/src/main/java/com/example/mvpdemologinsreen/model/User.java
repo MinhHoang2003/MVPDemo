@@ -1,35 +1,28 @@
 package com.example.mvpdemologinsreen.model;
 
 public class User {
-    private String email;
-    private String password;
+
+    private String mEmail;
+    private String mPassword;
 
     public User(String email, String password) {
-        this.email = email;
-        this.password = password;
+        mEmail = email;
+        mPassword = password;
     }
 
     public String getEmail() {
-        return email;
+        return mEmail;
     }
 
     public void setEmail(String email) {
-        this.email = email;
+        mEmail = email;
     }
 
     public String getPassword() {
-        return password;
+        return mPassword;
     }
 
     public void setPassword(String password) {
-        this.password = password;
-    }
-
-    @Override
-    public String toString() {
-        return "User{" +
-                "email='" + email + '\'' +
-                ", password='" + password + '\'' +
-                '}';
+        mPassword = password;
     }
 }
